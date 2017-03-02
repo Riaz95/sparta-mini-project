@@ -1,4 +1,9 @@
 header {
-	background-color: rgba(0, 0, 255, 0.3);
-	color: aquamarine;
+	background-color: lightblue;
+	color: black;
+	font-family: helvetica;
+	font-size: 80px;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 3px 2px red;
 }
