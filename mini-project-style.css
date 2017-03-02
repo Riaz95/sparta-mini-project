@@ -7,3 +7,15 @@ header {
 	text-align: center;
 	text-shadow: 3px 2px red;
 }
+
+h2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+h2: hover {
+	
+}
