@@ -1,21 +1,19 @@
 header {
-	background-color: lightblue;
-	color: black;
-	font-family: helvetica;
+	background-color: black;
+	color: white;
+	font-family: Impact, sans-serif;
 	font-size: 80px;
 	text-transform: uppercase;
 	text-align: center;
 	text-shadow: 3px 2px red;
 }
 
-h2 {
-    width: 100px;
-    height: 100px;
+h1 {
     background: red;
-    -webkit-transition: width 2s;
-    transition: width 2s;
+    display: inline-block;
+    text-align: center;
 }
 
-h2: hover {
-	
+h1:hover {
+	background-color: blue;
 }
