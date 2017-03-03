@@ -19,7 +19,7 @@ header {
     width: 100%;
 }
 
- #hobbies:hover {
+#hobbies:hover {
 	background-color: rgba(200, 0, 0, 0.8);
 }
 
@@ -45,11 +45,35 @@ h3 {
 	font-family: impact, Arial;
 	text-align: center;
 	text-decoration: underline;
+}
 
+p {
+	background-color: rgba(255, 0, 0, 0.5);
+	color: white;
+	font-family: impact Arial;
+	text-align: left;
 }
 
 label {
 	color: black;
-	font-family: Arial;
+	font-family: impact, Arial;
 	text-align: left;
 }
+
+#submit {
+	background-color: rgba(255, 0, 0, 0.5);
+	color: white;
+    text-align: center;
+    background: red;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+ #submit:hover {
+	background-color: rgba(200, 0, 0, 0.8);
+	color: white;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(360deg);
+}
+
+
