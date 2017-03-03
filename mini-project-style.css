@@ -12,6 +12,16 @@ header {
 	border: 2px	solid red;
 }
 
+.images {
+	height: 100%;
+	width: 100%;
+	float: middle;
+}
+
+img {
+	width: 100%;
+}
+
 .buttons {
     background-color: rgba(255, 0, 0, 0.5);
     display: inline-block;
@@ -25,19 +35,12 @@ header {
 	background-color: rgba(200, 0, 0, 0.8);
 }
 
-.images {
-	height: 100%;
-	width: 100%;
-	float: middle;
-}
 
-img {
-	width: 100%;
-}
-
-iframe {
-	width: 100%;
-	height: 45vw;
+p {
+	color: black;
+	font-family: impact Arial;
+	text-align: left;
+	max-width: 90%;
 }
 
 h3 {
@@ -47,13 +50,12 @@ h3 {
 	text-decoration: underline;
 }
 
-p {
-	color: black;
-	font-family: impact Arial;
-	text-align: left;
-	max-width: 90%;
+iframe {
+	width: 100%;
+	height: 45vw;
 }
- footer {
+
+footer {
  	text-align: center;
  }
 
@@ -81,16 +83,17 @@ label {
 
 @media screen and (min-width: 600px) {
 
-.images {
-	display: none;
-}
-
 body {
     background-image: url("sunset.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.images {
+	display: none;
+}
+
 .buttons {
     background-color: rgba(255, 0, 0, 0.5);
     display: inline-block;
@@ -99,6 +102,13 @@ body {
     font-size: 30px;
     float: left;
     width: 50%;
+}
+
+p {
+ 	text-align: right;
+ 	color: white;
+ 	text-align: center;
+	max-width: 100%;
 }
 
 h3 {
@@ -111,13 +121,8 @@ iframe {
 	height: 30vw;
 	padding-left: 325px;
 }
- p {
- 	text-align: right;
- 	color: white;
- 	text-align: center;
-	max-width: 100%;
- }
- label {
+
+label {
 	color: white;
 	font-family: impact, Arial;
 	text-align: left;
