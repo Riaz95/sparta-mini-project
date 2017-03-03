@@ -1,7 +1,4 @@
-body {
-	width: 100vw;
-	height: 100vh;
-}
+
 
 header {
 	background-color: black;
@@ -90,15 +87,23 @@ label {
 	float: left;
 }
 
-#grad {
-	padding-left: 100px;
-}
-
-#sunset {
-	padding-right: 100px;
-}
 img {
 	width: 50%;
 	float: left;
+}
+
+.buttons {
+    background-color: rgba(255, 0, 0, 0.5);
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    float: center;
+    width: 50%;
+}
+
+iframe {
+	width: 50%;
+	height: 30vw;
+	padding-left: 325px;
 }
 }
