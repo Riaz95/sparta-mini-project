@@ -28,7 +28,7 @@ header {
 	background-color: rgba(200, 0, 0, 0.8);
 }
 
-#images {
+.images {
 	height: 100%;
 	width: 100%;
 	float: middle;
@@ -36,8 +36,6 @@ header {
 
 img {
 	width: 100%;
-	float: middle;
-
 }
 
 iframe {
@@ -85,13 +83,22 @@ label {
 }
 
 @media screen and (min-width: 600px) {
-	#images {
-	height:20%;
+
+.images {
+	height: 20%;
 	width: 20%;
-	float: middle;
+	float: left;
 }
 
+#grad {
+	padding-left: 100px;
+}
+
+#sunset {
+	padding-right: 100px;
+}
 img {
-	width: 20%;
-	float: middle;
+	width: 50%;
+	float: left;
+}
 }
