@@ -1,8 +1,3 @@
-body {
-	margin: 0 auto;
-}
-
-
 header {
 	background-color: black;
 	color: white;
@@ -15,17 +10,25 @@ header {
 	border: 2px	solid red;
 }
 
-h1 {
-    background-color: rgba(255, 0, 0, 0.4);
+#aboutme {
+    background-color: rgba(255, 0, 0, 0.8);
     display: inline-block;
     text-align: center;
     font-size: 30px;
-   /*padding: 10px;*/
     float: center;
     width: 100%;
 }
 
-h1:hover {
+#hobbies {
+    background-color: rgba(255, 0, 0, 0.4);
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    float: center;
+    width: 100%;
+ }
+
+ #hobbies:hover {
 	background-color: rgba(200, 0, 0, 0.8);
 }
 
