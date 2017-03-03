@@ -101,6 +101,11 @@ body {
     width: 50%;
 }
 
+h3 {
+	color: white;
+	font-family: Arial;
+}
+
 iframe {
 	width: 50%;
 	height: 30vw;
