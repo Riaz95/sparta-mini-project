@@ -25,13 +25,15 @@ img {
 .buttons {
     background-color: rgba(255, 0, 0, 0.5);
     display: inline-block;
+    color: white;
     text-align: center;
+    text-decoration: underline;
     font-size: 30px;
     float: center;
     width: 100%;
 }
 
-#hobbies:hover {
+.buttons:hover {
 	background-color: rgba(200, 0, 0, 0.8);
 }
 
@@ -39,7 +41,7 @@ img {
 p {
 	color: black;
 	font-family: impact Arial;
-	text-align: left;
+	text-align: center;
 	max-width: 95%;
 }
 
@@ -79,6 +81,10 @@ label {
 	color: white;
     -webkit-transform: rotate(180deg);
     transform: rotate(360deg);
+}
+
+a {
+	color: white;
 }
 
 @media screen and (min-width: 600px) {
