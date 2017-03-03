@@ -1,3 +1,8 @@
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
 header {
 	background-color: black;
 	color: white;
@@ -48,11 +53,14 @@ h3 {
 }
 
 p {
-	background-color: rgba(255, 0, 0, 0.5);
-	color: white;
+	color: black;
 	font-family: impact Arial;
 	text-align: left;
+	max-width: 90%;
 }
+ footer {
+ 	text-align: center;
+ }
 
 label {
 	color: black;
@@ -76,4 +84,14 @@ label {
     transform: rotate(360deg);
 }
 
+@media screen and (min-width: 600px) {
+	#images {
+	height:20%;
+	width: 20%;
+	float: middle;
+}
 
+img {
+	width: 20%;
+	float: middle;
+}
